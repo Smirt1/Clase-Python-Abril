@@ -31,6 +31,4 @@ elif mes == 2:
 else:
     print("No es un mes valido")
 
-
-
 #Bucles o ciclos
