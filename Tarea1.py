@@ -17,7 +17,8 @@
 
 # numero_a = 2
 # numero_b = 4
-# print (numero_a > numero_b)
+# resultado = (numero_a > numero_b)
+# print (resultado)
 
 #Convierta dólares a pesos.
 
@@ -28,32 +29,41 @@
 
 # Convierta grados celsius a Fahrenheit
 
-# grados_celcius = 27
+# grados_celcius = int(input ( "Intruzca la temperatura a convertir: "))
 # print (grados_celcius * 1.8 + 32)
 
 # Almacene cuatro notas 90,95,77, 92 y las promedie. Al final debe decir su calificación en letras A, B,C,D, E ó F.
 
-# nota_1 = 77
-# nota_2 = 78
-# nota_3 = 70
-# nota_4 = 77
+# nota_1 = 90
+# nota_2 = 95
+# nota_3 = 77
+# nota_4 = 92
 
 # promedio = (nota_1 + nota_2 + nota_3 + nota_4) / 4
+
 # print (promedio)
 
-# if promedio <= 95:
-#     print("A")
-# elif promedio <= 90:
-#     print("B")
-# elif promedio <= 85:
-#     print("C")
-# elif promedio <= 80:
-#     print("D")
+# if promedio >= 90:
+#     print("Su nota es A")
+# elif promedio <= 89:
+#     print ("Su nota es B")
+# elif promedio <= 79:
+#     print("Su nota es C")
+# elif promedio <= 69:
+#     print("Su nota es D")
+# elif promedio <= 59:
+#     print("Su nota es E")
+# elif promedio <= 49:
+#     print("Su nota es F")
 # else:
 #     print("Usted esta super quemado y no lo sabe")
 
+#Que almacene monto, cantidad de cuotas, y porcentaje de interés anual de un préstamo y calcule la cuota mensual. (Amortizar mediante el sistema francés)
 
-    
+
+prestamo = float (input ("Ingrese el valor del prestamo: "))
+interes = float (input ("Ingrese la tasa solicitada:"))
+cuotas = int(input ("Ingrese el tiempo a pagar:"))
 
 
 
