@@ -1,3 +1,5 @@
+#OPERACIONES ARITMETICAS
+
 # print("Hola! Dime tu nombre")
 # nombre = input()
 # print ("Hola, bienvenido")
@@ -54,8 +56,51 @@
 # resta = (a - b)
 # print ("El resultado de la resta es: ", resta)
 
-# a =  float (input ("Indroduzca el primer numero: "))
+# a = int (input ("Indroduzca el primer numero: "))
+# b =  int (input ("Indroduzca el segundo numero: "))
+# div = (a // b)
+# print ("El resultado de la division es: ", div)
+
+# a = float (input ("Indroduzca el primer numero: "))
 # b =  float (input ("Indroduzca el segundo numero: "))
 # div = (a / b)
 # print ("El resultado de la division es: ", div)
+
+
+# a = int (input ("Indroduzca el primer numero: "))
+# b =  int (input ("Indroduzca el segundo numero: "))
+# resi = (a % b)
+# print ("El resultado de la division es: ", resi)
+
+
+# a = float (input ("Indroduzca el primer numero: "))
+# b =  float (input ("Indroduzca el segundo numero: "))
+# pote = (a ** b)
+# print ("El resultado de la division es: ", pote)
+
+#Condicionales
+
+i = 0
+
+while i <= 9:
+    print (i)
+i = i + 1
+
+
+#Funciones
+
+# def saludar():
+#     print ("Hola a todos!")
+
+# saludar()
+# saludar()
+# saludar()
+
+# def sumar():
+#     print (2+2) 
+
+# sumar()
+# sumar()
+# sumar()
+
 
