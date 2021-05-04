@@ -78,16 +78,35 @@
 # pote = (a ** b)
 # print ("El resultado de la division es: ", pote)
 
-#Condicionales
+#ciclos o bucles for / while: numeros del 0-9
+
+
+'''
 
 i = 0
 
 while i <= 9:
     print (i)
-i = i + 1
+    i = i + 1
 
 
-#Funciones
+for i in range (20):
+    print (i)
+
+
+
+for y in range (50):
+    print (y)
+
+'''
+
+x = 0
+
+while x <= 50:
+    print (x)
+    x = x + 1
+    
+    #Funciones
 
 # def saludar():
 #     print ("Hola a todos!")
