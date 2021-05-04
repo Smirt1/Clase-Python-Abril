@@ -36,7 +36,7 @@
 
 nota_1 = 90
 nota_2 = 95
-nota_3 = 90
+nota_3 = 77
 nota_4 = 92
 
 promedio = (nota_1 + nota_2 + nota_3 + nota_4) / 4

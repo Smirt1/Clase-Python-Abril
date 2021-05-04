@@ -78,35 +78,106 @@
 # pote = (a ** b)
 # print ("El resultado de la division es: ", pote)
 
-#ciclos o bucles for / while: numeros del 0-9
+# Condicionales if/  for / while: 
 
+# if 2 < 5:
+#     print ("2 es menor que 5")
 
-'''
-
-i = 0
-
-while i <= 9:
-    print (i)
-    i = i + 1
-
-
-for i in range (20):
-    print (i)
+# if 2 > 5:
+#     print ("2 es menor que 5")
 
 
 
-for y in range (50):
-    print (y)
+# edad = int (input ("Cual es su edad? "))
 
-'''
+# if edad >= 18:
+#      print ("Eres mayor de edad")
+# else:
+#     print ("Eres menor de edad")
 
-x = 0
+# edad = int (input ("Cual es su edad? "))
 
-while x <= 50:
-    print (x)
-    x = x + 1
+#Imprimir un programa que diga si eres mayor o  menor d eedad
+
+# if edad >= 0 and edad <= 17:
+#     print ("Eres menor de edad")
+# elif edad >= 18 and edad <= 59:
+#      print ("Eres mayor de edad")
+# else:
+#     print ("Eres de la tercera edad")
+
+# Imprimir numeros de 0 a 9
+
+# i = 0
+
+# while i <= 9:
+#     print (i)
+#     i = i + 1
+
+# Imprimir numeros de 0 a 19
+
+# for i in range (20):
+#     print (i)
+
+# Imprimir numeros de 0 a 49
+
+# for y in range (50):
+#     print (y)
+
+
+# x = 0
+
+# while x <= 50:
+#     print (x)
+#     x = x + 1
     
-    #Funciones
+
+# Listas
+
+# lista =>[1,2,3,4,5]
+
+# indices        0 1 2 3 4 5 6 7 8 
+
+# lista_numeros = [1,2,3,4,5,6,7,8,9]
+
+# num = lista_numeros[8]
+# print (num)
+
+# # cambiar valor en la lista
+# lista_numeros[7] = 100
+# num = lista_numeros [7]
+# print (num)
+
+
+# print (lista_numeros)
+
+# #agregar valor 22 a la lista
+# lista_numeros.append (22)
+# print (lista_numeros)
+
+#ver tamanio de lista
+
+# tamanio = len(lista_numeros)
+# print (tamanio)
+
+# for numero in lista_numeros:
+#     print (numero)
+# print ("terminamos de imprimir la lista")
+
+# yo te voy a dar [1,2,3,4,5]
+# tu me vas a dar [2,4,6,8,10]
+
+# lista = [1,2,3,4,5]
+# lista_nueva = []
+
+# for num in lista:
+#     valor_nuevo = num * 2
+#     lista_nueva.append(valor_nuevo)
+
+# print (lista_nueva)
+
+
+#Funciones
 
 # def saludar():
 #     print ("Hola a todos!")
@@ -122,4 +193,10 @@ while x <= 50:
 # sumar()
 # sumar()
 
+def suma_tres_numeros(a, b, c):
+    valor = a + b + c
+    return valor
+
+suma = suma_tres_numeros (2, 2, 2)
+print (suma)
 
