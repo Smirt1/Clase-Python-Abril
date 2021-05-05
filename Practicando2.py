@@ -176,6 +176,19 @@
 
 # print (lista_nueva)
 
+#Eliminar varios elementos de una lista
+
+# lista = [1,2,3,4,5,6]
+# del lista [3]
+
+# print (lista)
+
+
+# n = [1, 34, 55, 4, 8]
+# x = n [-3:: -1]
+
+# print (x)
+
 
 #Funciones
 
@@ -193,10 +206,37 @@
 # sumar()
 # sumar()
 
-def suma_tres_numeros(a, b, c):
-    valor = a + b + c
-    return valor
+# def suma_tres_numeros(a, b, c):
+#     valor = a + b + c
+#     return valor
 
-suma = suma_tres_numeros (2, 2, 2)
-print (suma)
+# suma = suma_tres_numeros (2, 2, 2)
+# print (suma)
+
+#Expresiones logicas en python:  == !=  < > >= <= / and or not
+
+# if True:
+#     print("Es verdadero")
+ 
+
+# es_mayor = False
+# if es_mayor:
+#     print (" Es mayor")
+# else:
+#     print ("Es menor")
+
+# edad = 11
+# es_mayor = edad >= 18
+# if es_mayor:
+#     print (" Es mayor")
+# else:
+#     print ("Es menor")
+
+# es_mayor = False
+# no_tiene_armas = False
+
+# if es_mayor and no_tiene_armas:
+#     print ("Puedes entrar")
+# else:
+#     print ("No puedes entrar")
 
