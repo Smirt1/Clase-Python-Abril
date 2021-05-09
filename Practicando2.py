@@ -51,10 +51,10 @@
 # suma = (a + b)
 # print ("El resultado de la suma es: ", suma)
 
-# a = int (input ("Indroduzca el primer numero: "))
-# b = int (input ("Indroduzca el segundo numero: "))
-# resta = (a - b)
-# print ("El resultado de la resta es: ", resta)
+a = int (input ("Indroduzca el primer numero: "))
+b = int (input ("Indroduzca el segundo numero: "))
+resta = (a - b)
+print ("El resultado de la resta es: ", resta)
 
 # a = int (input ("Indroduzca el primer numero: "))
 # b =  int (input ("Indroduzca el segundo numero: "))
