@@ -96,23 +96,112 @@
 # print ("Tengo", conv_ak, "kilogramos")
 # print ("Mido", conv_ac, "centimemtros")
 
-type_of_people = 10
-x = f'There are {type_of_people} types of people'
+#PRINTING
 
-binary = "binary"
-do_not = "don't"
-y = f"Those who know {binary} and those {do_not}"
+# type_of_people = 10
+# x = f'There are {type_of_people} types of people'
 
-print (y)
-print (x)
+# binary = "binary"
+# do_not = "don't"
+# y = f"Those who know {binary} and those {do_not}"
 
-print (f"I said: {x}")
-print (f"I also said: '{y}'")
+# print (y)
+# print (x)
 
-hilarius = False
-joke_evaluation = "Isn't that joke so funny?! {}"
-print (joke_evaluation.format (hilarius))
+# print (f"I said: {x}")
+# print (f"I also said: '{y}'")
 
-w = "This is the left sidel of..."
-e = "a string with a right side."
-print (w + e)
+# hilarius = False
+# joke_evaluation = "Isn't that joke so funny?! {}"
+# print (joke_evaluation.format (hilarius))
+
+# w = "This is the left sidel of..."
+# e = "a string with a right side."
+# print (w + e)
+
+#MORE PRINTING
+
+# print ("Mary had a little lamb.")
+# print ("Its fleece was white has {}." .format('snow'))
+# print ("And everywhere that Mary went.")
+# print ("=" * 10) #what'd that do
+
+# end1 = "C"
+# end2 = "h"
+# end3 = "e"
+# end4 = "e"
+# end5 = "s"
+# end6 = "e"
+# end7 = "B"
+# end8 = "u"
+# end9 = "r"
+# end10 = "g"
+# end11 = "e"
+# end12 = "r"
+
+#whatch that comma at the end. try removing it to see what happens
+
+# print (end1 + end2 + end3 + end4 + end5 + end6, end=' ')
+# print (end7 + end8 + end9 + end10 + end11 + end12)
+
+#PRINTING, PRINTING, PRINTING
+
+# formatter = "{} {} {} {}"
+
+# print (formatter.format (1,2,3,4))
+# print (formatter.format ("one", "two", "three", "four"))
+# print (formatter.format(True, False, False, True))
+# print (formatter.format(formatter, formatter, formatter, formatter))
+# print (formatter.format(
+
+# "Si continuas practicando",
+# "sin dudas seras",
+# "el mejor programando en Pythom.",
+# "Sigue practicando"
+
+# ))
+
+# Here's some new strange stuff, remenber type it exactly.
+
+# days = "Mon Tue Wed Thu Fri Sat Sun"
+# months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep"
+
+# print("Here are the days: ", days)
+# print ("Here are the months: ", months)
+
+# print ("""
+# There's something going on there.
+# With the three double-quotes.
+# We'll be able to type as much as we like.
+# Even 4 lines if we want, or 5, or 6.
+# """)
+
+# tabby_cat = "\tI'am tabbed in."
+# persian_cat = "I'm split\non a line."
+# backslash_cat = "I'm \\ a \\ cat."
+
+# fat_cat = """
+# I'll do a list:
+# \t* Cat food
+# \t* Fishies
+# \t* Catnip\n\t* Grass
+# """
+# print (tabby_cat)
+# print (persian_cat)
+# print (backslash_cat)
+# print (fat_cat)
+
+# print("How old are you?", end=' ')
+# age = input()
+# print("How tall are you?", end=' ')
+# height = input()
+# print("How much do you weigh?", end=' ')
+# weight = input()
+
+# print (f"So, you are {age} old, {height} tall and {weight} heavy.")
+
+# print ("Tu edad es:", age, "tu altura es:", height, "tu peso es:", weight)
+
+
+
+
