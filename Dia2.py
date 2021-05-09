@@ -39,15 +39,7 @@
 # print (presidente)
 
 
-# nombre = ["Juan","Pedro","Maria","Martha"]   #agregando elementos
+nombre = ["Juan","Pedro","Maria","Martha"]   #agregando elementos
 
-# nombre.append ("Jose")
-# print (nombre)
-
-nombres = [] # lista
-nombre = '*'
-while nombe != "":
-    nombre = input("Ingrese un nombre: ")
-    If nombre != '':
-        nombres.append
-
+nombre.append ("Jose")
+print (nombre)
