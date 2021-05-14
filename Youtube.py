@@ -77,3 +77,4 @@ print ("El promedio de la clase es: ", media)
 media = promedio(5,6,7.5)
 print ("El promedio de la clase es: ", media)
 
+#walk
