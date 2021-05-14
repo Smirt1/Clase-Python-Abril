@@ -13,18 +13,18 @@
 # print ("Nombre: " + nombre + "Apellido:" + apellido + "Edad:" + str(edad))
 # print (f"Nombre: {nombre} Apellido: {apellido} Edad: {edad}")
 
-# numero = 1
+# #numero = 1
 # suma = 0
 # contador = 0
 
-# print ("Introduzca un numero:")
-# numero = int(input())
 # while numero != 0:
-#     suma = suma + 1
-#     contador = contador + 1
+#     numero = int (input ("Ingrese un numero") )
+#     suma = suma + numero
+#     if numero !=0:
+#         contador = contador + 1
 
 # print (f"Usted ingreso {contador} numeros y la suma de ellos es {suma}")
-    
+
 
 #LISTAS
 #   
