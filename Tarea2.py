@@ -59,47 +59,46 @@
 # aplique los cálculos de ISR (ver tabla DGII), ARS, y AFP (investigar porcentajes)
 
 
-renta1 = 416200     #excento
-renta2 = 624329     #15%
-renta3 = 867123     #20% , si excede de este tope 25%
+# renta1 = 416200     #excento
+# renta2 = 624329     #15%
+# renta3 = 867123     #20% , si excede de este tope 25%
 
-sueldo = float(input ("Ingrese su sueldo: "))
+# sueldo = float(input ("Ingrese su sueldo: "))
 
-if sueldo <= renta1:
-    print("Su sueldo esta excento de cobro de ISR")
+# if sueldo <= renta1:
+#     print("Su sueldo esta excento de cobro de ISR")
 
-elif sueldo <= renta2:
-    calc1 = sueldo - 416220
-    calc2 = calc1 * 0.15
-    calc3 = calc2 // 12
-    afp = sueldo * 0.0287 // 12
-    ars = sueldo * 0.0304 // 12
+# elif sueldo <= renta2:
+#     calc1 = sueldo - 416220
+#     calc2 = calc1 * 0.15
+#     calc3 = calc2 // 12
+#     afp = sueldo * 0.0287 // 12
+#     ars = sueldo * 0.0304 // 12
 
-    print (f" Su retencion mensual des: IRS {calc3} pesos, AFP: {afp} pesos, ARS: {ars} pesos")
+#     print (f" Su retencion mensual des: IRS {calc3} pesos, AFP: {afp} pesos, ARS: {ars} pesos")
 
-elif sueldo <= renta3:
-    calc1 = sueldo - 624329
-    calc2 = calc1 * 0.20
-    calc3 = calc2 + 31216
-    calc4 = calc3 // 12
-    afp = sueldo * 0.0287 // 12
-    ars = sueldo * 0.0304 // 12
+# elif sueldo <= renta3:
+#     calc1 = sueldo - 624329
+#     calc2 = calc1 * 0.20
+#     calc3 = calc2 + 31216
+#     calc4 = calc3 // 12
+#     afp = sueldo * 0.0287 // 12
+#     ars = sueldo * 0.0304 // 12
 
-    print (f" Su retencion mensual des: IRS {calc4} pesos, AFP: {afp} pesos, ARS: {ars} pesos")
+#     print (f" Su retencion mensual des: IRS {calc4} pesos, AFP: {afp} pesos, ARS: {ars} pesos")
 
-elif sueldo >= renta3:
-    calc1 = sueldo - 867123
-    calc2 = calc1 * 0.25
-    calc3 = calc2 + 79776
-    calc4 = calc3 // 12
-    afp = sueldo * 0.0287 // 12
-    ars = sueldo * 0.0304 // 12
+# elif sueldo >= renta3:
+#     calc1 = sueldo - 867123
+#     calc2 = calc1 * 0.25
+#     calc3 = calc2 + 79776
+#     calc4 = calc3 // 12
+#     afp = sueldo * 0.0287 // 12
+#     ars = sueldo * 0.0304 // 12
 
-    print (f" Su retencion mensual des: IRS {calc4} pesos, AFP: {afp} pesos, ARS: {ars} pesos")
+#     print (f" Su retencion mensual des: IRS {calc4} pesos, AFP: {afp} pesos, ARS: {ars} pesos")
 
-else:
-    print ("Gracias por usar nuestro programa")
-
+# else:
+#     print ("Gracias por usar nuestro programa")
 
 
 
@@ -114,3 +113,38 @@ else:
 # cien.
 
 
+b1000 = 9
+b500 = 19
+b100 = 99
+
+while True:
+    print("1 - Banco ABC")
+    print("2 - Otros bancos")
+    print("3 - Salir")
+
+    op = input("opcion: ")
+
+    if op == '1':
+        limite_retiro = 10000
+    elif op == '3':
+        break
+    else:
+        limite_retiro = 20000
+
+    monto = int(input("Monto: "))
+
+    if monto <= limite_retiro and monto % 100 == 0:
+        cant_b1000 = int(monto / 1000)
+        monto = monto - (cant_b1000 * 1000) 
+        b1000 = b1000 - cant_b1000
+        cant_b500 = int( monto / 500)
+        monto = monto - (cant_b500 * 500) 
+        b500 = b500 - cant_b500
+        cant_b100 = int( monto / 100)
+        b100 = b100 - cant_b100
+        
+        print(f"Billetes de 1000: {cant_b1000}")
+        print(f"Billetes de 500: {cant_b500}")
+        print(f"Billetes de 100: {cant_b100}")
+    else:
+        print("El monto solicitado no puede ser dispensdo.")

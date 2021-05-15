@@ -51,10 +51,10 @@
 # suma = (a + b)
 # print ("El resultado de la suma es: ", suma)
 
-a = int (input ("Indroduzca el primer numero: "))
-b = int (input ("Indroduzca el segundo numero: "))
-resta = (a - b)
-print ("El resultado de la resta es: ", resta)
+# a = int (input ("Indroduzca el primer numero: "))
+# b = int (input ("Indroduzca el segundo numero: "))
+# resta = (a - b)
+# print ("El resultado de la resta es: ", resta)
 
 # a = int (input ("Indroduzca el primer numero: "))
 # b =  int (input ("Indroduzca el segundo numero: "))
@@ -239,4 +239,12 @@ print ("El resultado de la resta es: ", resta)
 #     print ("Puedes entrar")
 # else:
 #     print ("No puedes entrar")
+
+x = 1
+while True:
+    if x%11 == x%12==0:
+        break
+    x = x + 1
+    print (x, 'Is divisible by 11 and 12')
+
 

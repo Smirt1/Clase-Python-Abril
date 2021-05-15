@@ -59,7 +59,10 @@
 #Que almacene monto, cantidad de cuotas, y porcentaje de interés anual de un préstamo y calcule la cuota mensual. (Amortizar mediante el sistema francés)
 
 
-# prestamo = float (input ("Ingrese el valor del prestamo: "))
-# interes = float (input ("Ingrese la tasa solicitada:"))
-# cuotas = int(input ("Ingrese el tiempo a pagar:"))
+R = 0
+prestamo = float (input ("Ingrese el valor del prestamo: "))
+interes = float (input ("Ingrese la tasa solicitada:"))
+cuotas = int(input ("Ingrese el tiempo a pagar:"))
+R = prestamo * ((interes * (1 + interes) * cuotas) / ((1 + interes) * cuotas -1))
+print ("El valor de la cuota es: %.2f" %R)
 
