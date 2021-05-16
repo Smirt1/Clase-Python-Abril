@@ -113,38 +113,3 @@
 # cien.
 
 
-b1000 = 9
-b500 = 19
-b100 = 99
-
-while True:
-    print("1 - Banco ABC")
-    print("2 - Otros bancos")
-    print("3 - Salir")
-
-    op = input("opcion: ")
-
-    if op == '1':
-        limite_retiro = 10000
-    elif op == '3':
-        break
-    else:
-        limite_retiro = 20000
-
-    monto = int(input("Monto: "))
-
-    if monto <= limite_retiro and monto % 100 == 0:
-        cant_b1000 = int(monto / 1000)
-        monto = monto - (cant_b1000 * 1000) 
-        b1000 = b1000 - cant_b1000
-        cant_b500 = int( monto / 500)
-        monto = monto - (cant_b500 * 500) 
-        b500 = b500 - cant_b500
-        cant_b100 = int( monto / 100)
-        b100 = b100 - cant_b100
-        
-        print(f"Billetes de 1000: {cant_b1000}")
-        print(f"Billetes de 500: {cant_b500}")
-        print(f"Billetes de 100: {cant_b100}")
-    else:
-        print("El monto solicitado no puede ser dispensdo.")
