@@ -67,14 +67,31 @@
 # resultado = multiplicar(10,5) +  5
 # print (resultado)
 
-def promedio (alum1, alum2, alum3):
-    suma = alum1 + alum2 + alum3
-    return suma / 3
+# def promedio (alum1, alum2, alum3):
+#     suma = alum1 + alum2 + alum3
+#     return suma / 3
 
-media = promedio(7,8,9)
-print ("El promedio de la clase es: ", media)
+# media = promedio(7,8,9)
+# print ("El promedio de la clase es: ", media)
 
-media = promedio(5,6,7.5)
-print ("El promedio de la clase es: ", media)
+# media = promedio(5,6,7.5)
+# print ("El promedio de la clase es: ", media)
 
-#walk
+# #walk
+
+numero = 10
+otro = 3
+
+suma = numero + otro
+dif = numero - otro
+mult = numero * otro
+div = numero / otro
+resto = numero % otro
+
+print (suma)
+print (dif)
+print (mult)
+print (div)
+print (resto)
+
+
