@@ -9,7 +9,7 @@
 # contador = 0
 
 # while numero != 0:
-#     numero = int (input ("Ingrese un numero") )
+#     numero = int (input ("Ingrese un numero: ") )
 #     suma = suma + numero
 #     if numero !=0:
 #         contador = contador + 1
