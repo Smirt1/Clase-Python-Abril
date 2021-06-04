@@ -30,7 +30,7 @@ class Cliente(Persona):
         print ("Nombre:{} Apellido:{} Telefono:{}".format(self.nombre, self.apellido, self.telefono))
 
 c1 = Cliente()
-c1.
+c1.apellido
 
 
 class Empleado(Persona):
@@ -42,4 +42,4 @@ class Empleado(Persona):
         self.salario += aumento
 
 em1 = Empleado()
-em1.
+em1.nombre
