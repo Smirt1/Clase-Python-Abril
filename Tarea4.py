@@ -72,56 +72,67 @@
 # Cree una clase llamada Personaje con los métodos de instancia MoverArriba, MoverAbajo, MoverDerecha y MoverIzquierda. Cree una clase llamada Mario y
 # otra clase llamada Koopa que herede las funcionalidades de la clase Personaje.
 
-class Personaje:
-    def __init__(self, nombre, ocupacion):
-        self.nombre = nombre
-        self.ocupacion = ocupacion
-        self.MoverArriba = True
-        self.MoverAbajo = True
-        self.MoverDerecha = True
-        self.MoverIzquierda = True
+# class Personaje:
+#     def __init__(self, nombre, ocupacion):
+#         self.nombre = nombre
+#         self.ocupacion = ocupacion
+#         self.MoverArriba = True
+#         self.MoverAbajo = True
+#         self.MoverDerecha = True
+#         self.MoverIzquierda = True
 
-    def moverarriba (self):
-        self.MoverArriba = True
-        print ("El personaje", self.nombre, "se ha movido hacia arriba")
+#     def moverarriba (self):
+#         self.MoverArriba = True
+#         print ("El personaje", self.nombre, "se ha movido hacia arriba")
 
-    def moverabajo (self):
-        self.MoverAbajo = True
-        print ("El personaje", self.nombre, "se ha movido hacia abajo")
+#     def moverabajo (self):
+#         self.MoverAbajo = True
+#         print ("El personaje", self.nombre, "se ha movido hacia abajo")
 
-    def moverderecha (self):
-        self.MoverDerecha = True
-        print ("El personaje", self.nombre, "se ha movido hacia la derecha")
+#     def moverderecha (self):
+#         self.MoverDerecha = True
+#         print ("El personaje", self.nombre, "se ha movido hacia la derecha")
 
-    def moverizquierda (self):
-        self.MoverIzquierda = True
-        print ("El personaje", self.nombre, "se ha movido hacia la izquierda")
-
-
-class Mario (Personaje):
-    def __init__(self, nombre, ocupacion):
-        Personaje().__init__(nombre, ocupacion)   
+#     def moverizquierda (self):
+#         self.MoverIzquierda = True
+#         print ("El personaje", self.nombre, "se ha movido hacia la izquierda")
 
 
-class Koopa (Personaje):
-    def __init__(self, nombre, ocupacion):
-        Personaje().__init__(nombre, ocupacion)
+# class Mario (Personaje):
+#     def __init__(self, nombre, ocupacion):
+#         Personaje().__init__(nombre, ocupacion)   
+
+
+# class Koopa (Personaje):
+#     def __init__(self, nombre, ocupacion):
+#         Personaje().__init__(nombre, ocupacion)
        
         
-pers1 = Personaje ("Mario",  "plomero")
-pers2 = Personaje ("Koopa", "villano")
+# pers1 = Personaje ("Mario",  "plomero")
+# pers2 = Personaje ("Koopa", "villano")
 
-print (pers1.nombre, pers1.ocupacion)
-print (pers2.nombre, pers2.ocupacion)
+# print (pers1.nombre, pers1.ocupacion)
+# print (pers2.nombre, pers2.ocupacion)
 
-pers1.moverarriba()
-pers2.moverabajo()
+# pers1.moverarriba()
+# pers2.moverabajo()
 
-print (pers1)
-print (pers2)
+# print (pers1)
+# print (pers2)
 
 
 # Cree una clase Carro, con un campo llamado _cantidadCombustible y un método que se llame Encender el cual en base a la gasolina disponible 
 # mostrara si el carro pudo o no avanzar. Cada vez que el método se ejecute, deberá restarse 1 a la gasolina disponible. La cantidad de gasolina debe
 # establecerse al momento de instanciar un objeto de del tipo de la clase.
+
+class Carro():
+    def __init__(self, cantidad):
+        self.cantidad_conmbustible = cantidad
+
+    def encender(self):
+        if self.cantidad_combustible > 0:
+            print ("El auto encendio")
+            self.cantidad_combustible -= 1
+        else:
+            print ("No tiene combustible")
 
